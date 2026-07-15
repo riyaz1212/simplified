@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers — Simplified</title>
+  <meta name="description" content="Join the Simplified team. We're hiring digital marketing specialists, data analysts, account managers, and more. Apply now." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%230071e3'/><text y='.9em' font-size='70' x='50%' text-anchor='middle' fill='white' font-family='Inter'>S</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Page Loader -->
+<div class="page-loader" id="pageLoader">
+  <div class="loader-logo">Simplified</div>
+</div>
+
+<!-- Announcement Bar -->
+<div class="announcement-bar">
+  We're hiring! — Multiple positions open across India 🇮🇳
+</div>
+
+<!-- Navbar -->
+<nav class="navbar scrolled" id="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-dot"></span> Simplified
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#why-us">Why Us</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="careers.html" style="color: var(--accent); opacity: 1; font-weight:600;">Careers</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a href="index.html#contact" class="btn btn-primary">Get Started</a>
+    </div>
+
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="nav-mobile" id="mobileNav">
+  <a href="index.html#services" onclick="closeMenu()">Services</a>
+  <a href="index.html#why-us" onclick="closeMenu()">Why Us</a>
+  <a href="index.html#contact" onclick="closeMenu()">Contact</a>
+  <a href="careers.html">Careers</a>
+  <a href="index.html#contact" class="btn btn-primary btn-lg" onclick="closeMenu()">Get Started</a>
+</div>
+
+<!-- ═══════════════════════════════════
+     CAREERS HERO
+═══════════════════════════════════ -->
+<section class="careers-hero">
+  <div class="container" style="display:flex; flex-direction:column; align-items:center;">
+    <span class="hero-eyebrow fade-up">✦ &nbsp;We're growing fast</span>
+    <h1 class="hero-title fade-up fade-up-delay-1">
+      Work on <span class="gradient-text">meaningful</span><br>digital marketing.
+    </h1>
+    <p class="hero-subtitle fade-up fade-up-delay-2">
+      Join a team that's passionate about data, advertising technology, and helping brands grow. Remote-friendly, growth-oriented, and genuinely collaborative.
+    </p>
+    <a href="#apply" class="btn btn-primary btn-lg fade-up fade-up-delay-3">Apply Now ↓</a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     PERKS
+═══════════════════════════════════ -->
+<section style="padding: var(--sp-12) var(--sp-4); background: var(--white);">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label fade-up">Life at Simplified</span>
+      <h2 class="section-title fade-up fade-up-delay-1">Why people love working here</h2>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 3rem;">
+      <div class="service-card fade-up" style="text-align:center; padding: 1.75rem;">
+        <div class="service-icon" style="margin: 0 auto 1rem;">🌐</div>
+        <h3 style="font-size: 1rem;">Remote-Friendly</h3>
+        <p>Work from anywhere in India. We care about outcomes, not office attendance.</p>
+      </div>
+      <div class="service-card fade-up fade-up-delay-1" style="text-align:center; padding: 1.75rem;">
+        <div class="service-icon" style="margin: 0 auto 1rem;">📚</div>
+        <h3 style="font-size: 1rem;">Learning Budget</h3>
+        <p>Annual budget for courses, certifications, and conferences to keep you sharp.</p>
+      </div>
+      <div class="service-card fade-up fade-up-delay-2" style="text-align:center; padding: 1.75rem;">
+        <div class="service-icon" style="margin: 0 auto 1rem;">🚀</div>
+        <h3 style="font-size: 1rem;">Fast Growth</h3>
+        <p>We promote from within and reward performance. Your ceiling is high here.</p>
+      </div>
+      <div class="service-card fade-up fade-up-delay-3" style="text-align:center; padding: 1.75rem;">
+        <div class="service-icon" style="margin: 0 auto 1rem;">💬</div>
+        <h3 style="font-size: 1rem;">Open Culture</h3>
+        <p>Direct access to leadership, no bureaucracy — your ideas get heard and acted on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     OPEN POSITIONS
+═══════════════════════════════════ -->
+<section class="jobs-section" id="jobs">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label fade-up">Open Positions</span>
+      <h2 class="section-title fade-up fade-up-delay-1">Find your role</h2>
+      <p class="section-subtitle fade-up fade-up-delay-2">
+        We're always looking for talented, curious people. See open roles below.
+      </p>
+    </div>
+
+    <div style="margin-top: 2.5rem;">
+
+      <div class="job-card fade-up">
+        <div class="job-info">
+          <h3>Digital Marketing Manager</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top:2px;">Manage Google & Meta ad campaigns for multiple clients, reporting, and optimisation.</p>
+          <div class="job-tags">
+            <span class="job-tag">Full-Time</span>
+            <span class="job-tag green">Remote</span>
+            <span class="job-tag orange">2+ yrs exp</span>
+          </div>
+        </div>
+        <a href="#apply" class="btn btn-primary">Apply →</a>
+      </div>
+
+      <div class="job-card fade-up">
+        <div class="job-info">
+          <h3>Data Analyst — Ads & Measurement</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top:2px;">Own GA4 setups, Looker Studio dashboards, and attribution modelling for our client portfolio.</p>
+          <div class="job-tags">
+            <span class="job-tag">Full-Time</span>
+            <span class="job-tag green">Remote</span>
+            <span class="job-tag orange">1+ yrs exp</span>
+          </div>
+        </div>
+        <a href="#apply" class="btn btn-primary">Apply →</a>
+      </div>
+
+      <div class="job-card fade-up">
+        <div class="job-info">
+          <h3>Account Manager</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top:2px;">Be the single point of contact for 8–12 client accounts — briefings, reporting, and upsells.</p>
+          <div class="job-tags">
+            <span class="job-tag">Full-Time</span>
+            <span class="job-tag green">Hybrid</span>
+            <span class="job-tag orange">1–3 yrs exp</span>
+          </div>
+        </div>
+        <a href="#apply" class="btn btn-primary">Apply →</a>
+      </div>
+
+      <div class="job-card fade-up">
+        <div class="job-info">
+          <h3>SEO & Content Specialist</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top:2px;">Drive organic growth through on-page SEO, content strategy, and technical audits.</p>
+          <div class="job-tags">
+            <span class="job-tag">Full-Time</span>
+            <span class="job-tag green">Remote</span>
+            <span class="job-tag orange">1+ yrs exp</span>
+          </div>
+        </div>
+        <a href="#apply" class="btn btn-primary">Apply →</a>
+      </div>
+
+      <div class="job-card fade-up">
+        <div class="job-info">
+          <h3>Tag Management Specialist (GTM / CAPI)</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top:2px;">Set up and maintain Google Tag Manager, server-side tagging, Conversion APIs, and pixel events.</p>
+          <div class="job-tags">
+            <span class="job-tag">Contract / Full-Time</span>
+            <span class="job-tag green">Remote</span>
+            <span class="job-tag orange">2+ yrs exp</span>
+          </div>
+        </div>
+        <a href="#apply" class="btn btn-primary">Apply →</a>
+      </div>
+
+      <div class="job-card fade-up">
+        <div class="job-info">
+          <h3>Business Development Executive</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top:2px;">Identify and close new client opportunities. Comfortable with outreach, proposals, and pitches.</p>
+          <div class="job-tags">
+            <span class="job-tag">Full-Time</span>
+            <span class="job-tag green">Hybrid</span>
+            <span class="job-tag orange">1–3 yrs exp</span>
+          </div>
+        </div>
+        <a href="#apply" class="btn btn-primary">Apply →</a>
+      </div>
+
+    </div>
+
+    <p style="text-align:center; margin-top: 2rem; color: var(--text-secondary); font-size: 0.9rem;">
+      Don't see your role? <a href="mailto:hr@simplified.co.in" style="color: var(--accent); font-weight:500;">Send us your CV anyway →</a>
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     APPLICATION FORM (Google Form)
+═══════════════════════════════════ -->
+<section class="form-section" id="apply">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label fade-up">Apply Now</span>
+      <h2 class="section-title fade-up fade-up-delay-1">Submit your application</h2>
+      <p class="section-subtitle fade-up fade-up-delay-2">
+        Fill in the form below and we'll get back to you within 3 business days.
+        Have questions? Email <a href="mailto:hr@simplified.co.in" style="color: var(--accent);">hr@simplified.co.in</a>
+      </p>
+    </div>
+
+    <div class="google-form-wrap fade-up">
+      <!--
+        ╔══════════════════════════════════════════════════════════════╗
+        ║  PASTE YOUR GOOGLE FORM EMBED URL IN THE src ATTRIBUTE      ║
+        ║  How to get embed URL:                                       ║
+        ║  1. Open your Google Form                                    ║
+        ║  2. Click Send → Embed tab (<>)                              ║
+        ║  3. Copy the iframe src URL and replace YOUR_FORM_ID below   ║
+        ╚══════════════════════════════════════════════════════════════╝
+      -->
+      <iframe
+        id="careerGoogleForm"
+        src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
+        width="100%"
+        height="700"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Simplified Careers Application Form"
+      >
+        Loading form…
+      </iframe>
+    </div>
+
+    <!-- Fallback if form not yet configured -->
+    <div id="formFallback" style="display:none; text-align:center; padding: 3rem; background: var(--surface); border-radius: var(--radius-xl); border: 1px solid var(--border-light); max-width: 760px; margin: 1.5rem auto 0;">
+      <div style="font-size:2.5rem; margin-bottom:1rem;">📋</div>
+      <h3 style="font-weight:700; margin-bottom:0.5rem;">Application form coming soon</h3>
+      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">While we set up the online form, please send your CV and a brief introduction to:</p>
+      <a href="mailto:hr@simplified.co.in" class="btn btn-primary">hr@simplified.co.in</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     FOOTER
+═══════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">
+          <span class="logo-dot"></span> Simplified
+        </a>
+        <p>Digital marketing & managed services that move the needle for ambitious brands.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="index.html#services">Data Migration</a></li>
+          <li><a href="index.html#services">Audience Segments</a></li>
+          <li><a href="index.html#services">Ad Measurement</a></li>
+          <li><a href="index.html#services">Managed Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html#why-us">About</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@simplified.co.in">hello@simplified.co.in</a></li>
+          <li><a href="mailto:hr@simplified.co.in">hr@simplified.co.in</a></li>
+          <li><a href="mailto:accounts@simplified.co.in">accounts@simplified.co.in</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Simplified AI Services. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
