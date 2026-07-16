@@ -170,6 +170,46 @@ img {
   background: rgba(0,0,0,0.09);
 }
 
+/* Employee Login button — distinct amber tint so it reads as an internal link */
+.btn-employee {
+  font-size: 0.78rem;
+  padding: 0.45rem 0.9rem;
+  background: rgba(255, 160, 0, 0.1);
+  color: #b36a00;
+  border: 1px solid rgba(255, 160, 0, 0.35);
+  border-radius: 100px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.btn-employee:hover {
+  background: rgba(255, 160, 0, 0.2);
+  border-color: rgba(255, 160, 0, 0.6);
+  color: #8a5000;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 160, 0, 0.2);
+}
+
+/* Mobile nav employee link */
+.employee-mobile-link {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  color: #b36a00 !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-left: 3px solid rgba(255, 160, 0, 0.5);
+  background: rgba(255, 160, 0, 0.06);
+  border-radius: 0 8px 8px 0;
+  text-decoration: none;
+  margin: 0.25rem 0;
+}
+
 .btn-lg {
   padding: 1rem 2.5rem;
   font-size: var(--font-size-base);
